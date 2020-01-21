@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+
+/* 스타일초기화 */
+body, html{
+	height:100%;
+	box-sizing: border-box;
+	scrollbar-arrow-color: #0a449b; 
+	scrollbar-Face-Color: #48d4f4; 
+	scrollbar-Track-Color: #0a449b;
+	scrollbar-Shadow-Color: #48d4f4;
+}
+::-webkit-scrollbar-track{
+	border-radius: 2px;
+	background-color: #0a449b;
+}
+::-webkit-scrollbar{
+	width: 2px;
+	height:2px;
+	background-color: #0a449b;
+}
+::-webkit-scrollbar-thumb{
+	border-radius: 2px;
+	height:2px;
+	background-color: #48d4f4;
+}
+*{
+	margin:0;
+	padding:0; 
+	word-break:break-all;
+	word-wrap:break-word;
+}
+body{
+	font-family: 'NanumSquare',sans-serif;
+	width:100%;
+}
+a {text-decoration:none; font-weight:normal;}
+a:link, 
+a:visited {
+	text-decoration:none;
+}
+a:hover, 
+a:active {
+	text-decoration:none;
+}
+
+
+/*table 기본설정*/
+table{
+	border:none; 
+	border-collapse:collapse; 
+	border-spacing:0;
+}
+
+td,
+th,
+img,
+abbr,
+acronym, 
+img,
+fieldset,
+iframe {
+	border:0 none;
+	padding:0;
+	margin:0;
+}
+
+dl, 
+dt, 
+dd, 
+ul,
+ol,
+ul,
+pre {
+	margin:0;
+	padding:0; 
+	list-style:none;
+}
+
+caption, 
+legend{
+	overflow:hidden;
+	visibility:hidden;
+	font-size:0;
+	line-height:0;
+	height:0;
+	width:0;
+	text-indent:-999em;
+}
+
+img{
+	vertical-align:middle;
+}
+em, p, span {
+	font-style:normal;
+}
+
+
+/* font style */
+@font-face {
+font-family:'NanumSquare';
+src:url(../font/NanumSquareR.woff2) format('woff2'),
+		url(../font/NanumSquareR.woff) format('woff'),
+		url(../font/NanumSquareR.otf) format('opentype');
+}
+
+@font-face {
+font-family: 'Futura Std Heavy';
+src:url(../font/FuturaStdHeavy.woff2) format('woff2'),
+		url(../font/FuturaStdHeavy.woff) format('woff'),
+		url(../font/FuturaStdHeavy.otf) format('opentype');
+}
+
+@font-face {
+font-family: 'FuturaBT Heavy';
+src:url(../font/FuturaBTHeavy.woff2) format('woff2'),
+		url(../font/FuturaBTHeavy.woff) format('woff'),
+		url(../font/FuturaBTHeavy.otf) format('opentype');
+}
+
+

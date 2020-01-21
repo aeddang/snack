@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+
+.jarvis-uiscrollview {}
+.jarvis-uiscrollview .body {}
+.jarvis-uiscrollview .content {}
+.jarvis-uiscrollview .bar {background: #eee}
+.jarvis-uiscrollview .point {background: #ddd}
+
+.jarvis-uiscrollview .btn-top {background: #eee}
+.jarvis-uiscrollview .btn-bottom {background: #eee}
+
+

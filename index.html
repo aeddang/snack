@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content=" initial-scale=1, user-scalable=no">
+    <link rel='stylesheet' href="./css/base.css">
+    <link rel='stylesheet' href="./css/game.css">
+    <script type="text/javascript" src="./lib/lib.js"></script>
+    <script type="text/javascript" src="./box2d/box2d.js"></script>
+    <script type="text/javascript" src="./rx/rx.all.min.js"></script>
+    <script type='text/javascript' src='./classes/core/elementprovider.js'></script>
+    <script type='text/javascript' src='./classes/core/componentcore.js'></script>
+    <script type="text/javascript" src="./classes/stage.js"></script>
+    
+    <!-- box2djs -->
+    
+	
+</head>
+<body class='body'>
+	<div class='stage stage-bg' id='stage'> 
+	</div> 
+
+	<script type="text/javascript">
+        
+        window.onload = init;
+        function init()
+        {   
+            var stage = new Stage("stage");
+            stage.init();
+        }
+
+
+        function solution(n) 
+        {
+            var len = Math.floor(n/2);
+            var sum = 1;
+            var o = 0;
+            for (var i =1; i<=len; ++i)
+            {
+                var sn = (n -(i*2)) + i
+                var s2 = i
+                var k = 1.0
+                while(s2>0)
+                {
+                    k *= sn/s2;
+                    s2 --;
+                }
+                    sn --;
+                    o++;
+                sum += k;
+
+            }
+            return sum % 1000000007;
+        }
+
+    </script>
+</body>
+</html>

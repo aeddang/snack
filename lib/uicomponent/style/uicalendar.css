@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+
+.jarvis-uicalendar-panel {}
+
+.jarvis-uicalendar-panel .view {position:relative;  margin:0 auto}
+
+.jarvis-uicalendar-panel .view .title {font-size:15px; font-weight:bold; color:#ffffff; background: #ff0000}
+.jarvis-uicalendar-panel .view .calendar-box {display:inline-block; width:210px; height:100%}
+.jarvis-uicalendar-panel .view .calendar-box .cell {position:relative; text-align:center; float:left; width:30px; height:30px}
+.jarvis-uicalendar-panel .view .calendar-box .top-bar {position:relative; overflow:hidden; background: #cccccc}
+.jarvis-uicalendar-panel .view .calendar-box .top-bar .cell_default {font-weight:bold; font-size:12px; color:#333333}
+
+.jarvis-uicalendar-panel .view .calendar-box .top-bar .cell_saturday {color:#0000cc}
+.jarvis-uicalendar-panel .view .calendar-box .top-bar .cell_sunday {color:#cc0000}
+
+
+.jarvis-uicalendar-panel .view .calendar-box .calendar {position:relative; overflow:hidden; background: #ffffff}
+
+.jarvis-uicalendar-panel .view .calendar-box .calendar .cell_default {position:relative}
+.jarvis-uicalendar-panel .view .calendar-box .calendar .cell_default_0 {background:#dddddd}
+.jarvis-uicalendar-panel .view .calendar-box .calendar .cell_default_1 {background:#eeeeee}
+.jarvis-uicalendar-panel .view .calendar-box .calendar .cell_today {background: #00ff00}
+.jarvis-uicalendar-panel .view .calendar-box .calendar .cell_select {background: #ff0000}
+
+
+.jarvis-uicalendar-panel .view .calendar-box .calendar .btn_default {font-size:12px; width:30px; height:30px; background:none; border:0}
+.jarvis-uicalendar-panel .view .calendar-box .calendar .btn_prev {color:#ffffff}
+.jarvis-uicalendar-panel .view .calendar-box .calendar .btn_next {color:#ffffff}
+.jarvis-uicalendar-panel .view .calendar-box .calendar .btn_saturday {color:#0000ff}
+.jarvis-uicalendar-panel .view .calendar-box .calendar .btn_sunday {color:#ff0000}
+.jarvis-uicalendar-panel .view .calendar-box .calendar .btn_today {color:#ffffff}
+.jarvis-uicalendar-panel .view .calendar-box .calendar .btn_select {font-weight:bold; color:#ffffff}
+
+
+.jarvis-uicalendar-panel .view .btn {position:relative; top:10px; padding: 0; border: 0; text-align: left; cursor: pointer;text-indent: -9999px; width:9px; height:17px}
+.jarvis-uicalendar-panel .view .prev-btn {margin-right:15px; background: url("./btn_prev.png") no-repeat}
+.jarvis-uicalendar-panel .view .next-btn {margin-left:15px; background: url("./btn_next.png") no-repeat}
+
+
+
+
+
+
+
+
+.jarvis-uicalendar-custom {}
+
+.jarvis-uicalendar-custom .view {position:relative;  margin:0 auto}
+
+.jarvis-uicalendar-custom .view .title {font-size:15px; text-align:center; font-weight:bold; color:#000000; background: #eeeeee}
+.jarvis-uicalendar-custom .view .calendar-box {display:inline-block; width:210px; height:100%}
+.jarvis-uicalendar-custom .view .calendar-box .cell {position:relative; float:left; width:30px; height:30px}
+.jarvis-uicalendar-custom .view .calendar-box .top-bar {position:relative; overflow:hidden; background: #000066}
+.jarvis-uicalendar-custom .view .calendar-box .top-bar .cell_default {font-weight:bold; font-size:12px; color:#ffffff}
+
+.jarvis-uicalendar-custom .view .calendar-box .top-bar .cell_saturday {color:#0000cc}
+.jarvis-uicalendar-custom .view .calendar-box .top-bar .cell_sunday {color:#cc0000}
+
+
+.jarvis-uicalendar-custom .view .calendar-box .calendar {position:relative; overflow:hidden; background: #ffffff}
+
+.jarvis-uicalendar-custom .view .calendar-box .calendar .cell_default {position:relative}
+.jarvis-uicalendar-custom .view .calendar-box .calendar .cell_default_0 {background:#dddddd}
+.jarvis-uicalendar-custom .view .calendar-box .calendar .cell_default_1 {background:#eeeeee}
+.jarvis-uicalendar-custom .view .calendar-box .calendar .cell_today {background: #00ff00}
+.jarvis-uicalendar-custom .view .calendar-box .calendar .cell_select {background: #ff0000}
+
+
+.jarvis-uicalendar-custom .view .calendar-box .calendar .btn_default {font-size:12px; width:30px; height:30px; background:none; border:0}
+.jarvis-uicalendar-custom .view .calendar-box .calendar .btn_prev {color:#ffffff}
+.jarvis-uicalendar-custom .view .calendar-box .calendar .btn_next {color:#ffffff}
+.jarvis-uicalendar-custom .view .calendar-box .calendar .btn_saturday {color:#0000ff}
+.jarvis-uicalendar-custom .view .calendar-box .calendar .btn_sunday {color:#ff0000}
+.jarvis-uicalendar-custom .view .calendar-box .calendar .btn_today {color:#ffffff}
+.jarvis-uicalendar-custom .view .calendar-box .calendar .btn_select {font-weight:bold; color:#ffffff}
+
+
+.jarvis-uicalendar-custom .view .btn {position:relative; top:40px; padding: 0; border: 0; text-align: left; cursor: pointer;text-indent: -9999px; width:9px; height:17px}
+.jarvis-uicalendar-custom .view .prev-btn {margin-right:15px; background: url("./btn_prev.png") no-repeat}
+.jarvis-uicalendar-custom .view .next-btn {margin-left:15px; background: url("./btn_next.png") no-repeat}
